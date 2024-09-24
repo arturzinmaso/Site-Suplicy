@@ -1,0 +1,101 @@
+*{
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+pseudo-seletor:active{
+    color: white;
+}
+
+body{
+
+    font-family: "Poppins", sans-serif;
+    overflow-y: none;
+}
+header{
+    text-decoration: none;
+    background-color: #424E61;   /*cor de fundo */
+    color: white;
+    display: flex;
+    justify-content: space-around; /* Distribui os elementos com espaço igual em volta deles; */
+    align-items: center;   /*alinhar os items ao centro  */
+    padding: 50px 0;   /*serve para espaçamentos internos  */
+}
+
+.lista-escola{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 16px;    /* espaçamento externo para os lados */
+    font-size: 24px;  
+    text-shadow: 4px 4px 10px mediumturquoise ;
+}
+
+.img-1{
+    width: 35%;  /* largura */
+}
+
+.img-1:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);  /*adiciona uma sombra ao redor da imagem, ao passar o mouse */
+    transform: scale(1.25,1.25);    /*ao passar o mouse, dá um efeito de zoom, os numeros são de 25%*/
+}
+ 
+#escola{
+    background-image: linear-gradient( #424E61,#0d80bf);
+    color: white;
+    display: flex; /*Define o layout como flexível; */
+    justify-content: center;
+    padding: 50px 0;  /*espaçamento entre cabeçario e foto, titulo e pargrafo */ /* espaçamento interno de 50 pixels (cima/baixo) e 0 pixels (esquerda/direita);*/
+}
+
+.div-escola{
+    width: 30%;  /*largura da div */
+}
+
+.titulo-2{
+    padding: 24px 0; /* espaçamento entre titulo e paragrafo  */
+}
+
+.estudante-img{
+    width: 120px;
+}
+
+.estudante-titulo{
+    text-align: center;
+    border-bottom-style: double;
+    border-width: thin;
+    padding: 40px;
+    text-shadow: 2px 2px 10px #00d7ff ; /*adiciona uma sombra com cor azul */
+}
+
+
+.aluno-div{ /* */
+    text-align: center;
+    padding: 20px;
+}
+.aluno-icone{
+    width: 24px;
+    margin: auto;
+    padding: 6px;
+}
+
+.aluno-icone:hover{
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);  /*adiciona uma sombra ao redor da imagem, ao passar o mouse */
+    transform: scale(1.25,1.25);    /*ao passar o mouse, dá um efeito de zoom, os numeros são de 25%*/
+}
+
+.todos-alunos{
+    padding: 20px 0;
+    display: grid; /* colocar tudo em um monte de caixas*/
+    grid-template-columns: 20% 20% 20% 20% 20%; /* quantas colunas eu quero e qual o espaçamento delas*/
+}
+
+.rodape{
+    background-image: linear-gradient(to right,white,#0d80bf );
+    height: 80px;
+}
+
+nav{
+    color: white;
+    text-decoration: none;
+}
